@@ -11,20 +11,23 @@ public class createTargetArray {
     It is guaranteed that the insertion operations will be valid.
      */
     public int[] createTargetArray(int[] nums, int[] index) {
-        int[] target = new int[nums.length];
-        for (int i = 0; i < nums.length; ++i) {
-            if (index[i] == i) {
-                target[index[i]] = nums[i];
+        int[] ans = new int[nums.length];
+        for (int i = 0; i < ans.length; i++) {
+            ans[i] = -1;
+        }
+        for (int i = 0; i < nums.length; i++) {
+            int num = nums[i];
+            int indexVal = index[i];
+            if (ans[indexVal] == -1) {
+                ans[indexVal] = num;
             }
             else {
-                int temp;
-                for (int j = index[i]; j < i+1; ++j) {
-                    temp = target[j];
-                    target[j] = nums[i];
-                    nums[i] = temp;
+                for (int j = nums.length - 1; j > indexVal; j--) {
+                    ans[j] = ans[j-1];
                 }
+                ans[indexVal] = num;
             }
         }
-        return target;
+        return ans;
     }
 }

@@ -9,4 +9,6 @@ public class toLowerCase {
                 a[i] = (char) (a[i] - 'A' + 'a');
         return new String(a);
     }
+
+
 }
