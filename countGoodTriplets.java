@@ -1,7 +1,4 @@
-import static java.lang.Math.*;
-
-public class countGoodTriplets {
-    /*
+/*
     Given an array of integers arr, and three integers a, b and c. You need to find the number of good triplets.
 
     A triplet (arr[i], arr[j], arr[k]) is good if the following conditions are true:
@@ -13,11 +10,10 @@ public class countGoodTriplets {
     Where |x| denotes the absolute value of x.
 
     Return the number of good triplets.
-     */
+*/
+import static java.lang.Math.*;
 
-    // Brute Force
-    // Time: O(N^3)
-    // Space: O(1)
+public class countGoodTriplets {
     public int countGoodTriplets(int[] arr, int a, int b, int c) {
         int triplets = 0;
         for (int i = 0; i < arr.length - 2; i++) {
