@@ -1,4 +1,28 @@
-class Solution {
+/*
+    Given a binary tree, return the sum of values of its deepest leaves.
+
+    Constraints:
+        - The number of nodes in the tree is between 1 and 10^4.
+        - The value of nodes is between 1 and 100.
+ */
+
+import java.util.LinkedList;
+import java.util.Queue;
+
+class deepestLeavesSum {
+    public class TreeNode {
+      int val;
+      TreeNode left;
+      TreeNode right;
+      TreeNode() {}
+      TreeNode(int val) { this.val = val; }
+      TreeNode(int val, TreeNode left, TreeNode right) {
+          this.val = val;
+          this.left = left;
+          this.right = right;
+      }
+  }
+
     public int deepestLeavesSum(TreeNode root) {
         int max = 0;
         Queue<TreeNode> queue = new LinkedList<>();

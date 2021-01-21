@@ -6,12 +6,12 @@
     Return true if it is possible to form the array arr from pieces. Otherwise, return false.
 
     Constraints:
-    - 1 <= pieces.length <= arr.length <= 100
-    - sum(pieces[i].length) == arr.length
-    - 1 <= pieces[i].length <= arr.length
-    - 1 <= arr[i], pieces[i][j] <= 100
-    - The integers in arr are distinct.
-    - The integers in pieces are distinct (i.e., If we flatten pieces in a 1D array, all the integers in this array are distinct).
+        - 1 <= pieces.length <= arr.length <= 100
+        - sum(pieces[i].length) == arr.length
+        - 1 <= pieces[i].length <= arr.length
+        - 1 <= arr[i], pieces[i][j] <= 100
+        - The integers in arr are distinct.
+        - The integers in pieces are distinct (i.e., If we flatten pieces in a 1D array, all the integers in this array are distinct).
  */
 class canFormArray {
     public boolean canFormArray(int[] arr, int[][] pieces) {

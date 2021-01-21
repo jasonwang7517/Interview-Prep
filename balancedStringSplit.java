@@ -5,8 +5,8 @@ public class balancedStringSplit {
     Return the maximum amount of splitted balanced strings.
 
     Constraints:
-    - 1 <= s.length <= 1000
-    - s[i] = 'L' or 'R'
+        - 1 <= s.length <= 1000
+        - s[i] = 'L' or 'R'
 */
     public int balancedStringSplit(String s) {
         int ans = 0;
