@@ -1,4 +1,7 @@
-class Solution {
+import java.util.ArrayList;
+import java.util.List;
+
+class spiralOrder {
     public List<Integer> spiralOrder(int[][] matrix) {
         boolean[][] seen = new boolean[matrix.length][matrix[0].length];
         ArrayList<Integer> ans = new ArrayList<>();
