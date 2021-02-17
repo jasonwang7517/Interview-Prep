@@ -1,4 +1,7 @@
-class Solution {
+import java.util.ArrayList;
+import java.util.List;
+
+class kidsWithCandies {
     public List<Boolean> kidsWithCandies(int[] candies, int extraCandies) {
         int max = 0;
         for (int candy : candies) {

@@ -1,4 +1,4 @@
-class Solution {
+class numberOfMatches {
     public int numberOfMatches(int n) {
         int ans = 0;
         while (n > 1) {

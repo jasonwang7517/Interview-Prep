@@ -1,4 +1,4 @@
-class Solution {
+class maxArea {
     public int maxArea(int[] height) {
         int currMax = Integer.MIN_VALUE;
         for (int i = 0; i < height.length - 1; i++) {

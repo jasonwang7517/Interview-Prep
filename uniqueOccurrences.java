@@ -1,4 +1,7 @@
-class Solution {
+import java.util.HashMap;
+import java.util.HashSet;
+
+class uniqueOccurrences {
     public boolean uniqueOccurrences(int[] arr) {
         HashMap<Integer, Integer> map = new HashMap<>();
         HashSet<Integer> freq = new HashSet<>();

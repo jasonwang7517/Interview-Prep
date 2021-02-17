@@ -1,4 +1,4 @@
-class Solution {
+class minCostToMoveChips {
     public int minCostToMoveChips(int[] position) {
         int count0 = 0;
         int count1 = 0;

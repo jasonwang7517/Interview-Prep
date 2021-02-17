@@ -1,4 +1,7 @@
-class Solution {
+import java.util.ArrayList;
+import java.util.List;
+
+class selfDividingNumbers {
     public List<Integer> selfDividingNumbers(int left, int right) {
         ArrayList<Integer> ans = new ArrayList<>();
         for (int i = left; i <= right; i++) {

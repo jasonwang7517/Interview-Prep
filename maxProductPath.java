@@ -1,4 +1,4 @@
-class Solution {
+class maxProductPath {
     public int maxProductPath(int[][] grid) {
         long[][][] maxPath = new long[grid.length][grid[0].length][2];
         maxPath[0][0][0] = grid[0][0];

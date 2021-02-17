@@ -1,4 +1,4 @@
-class Solution {
+class heightChecker {
     public int heightChecker(int[] heights) {
         int[] heightToFreq = new int[101];
         

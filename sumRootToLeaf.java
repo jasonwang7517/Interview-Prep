@@ -1,4 +1,4 @@
-class Solution {
+class sumRootToLeaf {
     int rootToLeaf = 0;
     
     public void preorder(TreeNode r, int currNumber) {

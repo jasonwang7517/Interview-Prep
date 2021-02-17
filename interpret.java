@@ -1,4 +1,4 @@
-class Solution {
+class interpret {
     public String interpret(String command) {
         char[] chars = command.toCharArray();
         String s = "";

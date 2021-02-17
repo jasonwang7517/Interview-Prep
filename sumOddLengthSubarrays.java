@@ -1,4 +1,4 @@
-class Solution {
+class sumOddLengthSubarrays {
     public int sumOddLengthSubarrays(int[] arr) {
         int ans = 0;
         int subArraySize = 1;

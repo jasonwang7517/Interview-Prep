@@ -13,7 +13,7 @@
  *     }
  * }
  */
-class Solution {
+class isSubtree {
     public boolean isSubtree(TreeNode s, TreeNode t) {
         return traverse(s, t);
     }
@@ -31,9 +31,17 @@ class Solution {
     public boolean traverse(TreeNode s, TreeNode t) {
         return s != null && (equals(s, t) || traverse(s.left, t) || traverse (s.right, t));
     }
-    
-    /*
-    22
-    2 2 
-    */
+
+    public class TreeNode {
+      int val;
+      TreeNode left;
+      TreeNode right;
+      TreeNode() {}
+      TreeNode(int val) { this.val = val; }
+      TreeNode(int val, TreeNode left, TreeNode right) {
+          this.val = val;
+          this.left = left;
+          this.right = right;
+      }
+  }
 }

@@ -1,4 +1,4 @@
-class Solution {
+class increasingTriplet {
     public boolean increasingTriplet(int[] nums) {
         int largest = Integer.MAX_VALUE;
         int smallest = Integer.MAX_VALUE;

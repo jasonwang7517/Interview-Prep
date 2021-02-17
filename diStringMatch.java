@@ -1,4 +1,4 @@
-class Solution {
+class diStringMatch {
     public int[] diStringMatch(String S) {
         int[] ans = new int[S.length() + 1];
         int min = 0;
