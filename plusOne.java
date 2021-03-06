@@ -13,7 +13,7 @@ public class plusOne {
         }
         else {
             int currVal = digits.length - 2;
-            while ()
         }
+        return digits;
     }
 }

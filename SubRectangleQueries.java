@@ -1,7 +1,7 @@
 public class SubRectangleQueries {
     int[][] rectangle;
 
-    public SubrectangleQueries(int[][] rectangle) {
+    public SubRectangleQueries(int[][] rectangle) {
         this.rectangle = rectangle;
     }
     
