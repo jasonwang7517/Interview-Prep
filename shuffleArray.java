@@ -1,10 +1,10 @@
-public class shuffleArray {
-    //Given the array nums consisting of 2n elements in the form [x1,x2,...,xn,y1,y2,...,yn].
-    //Return the array in the form [x1,y1,x2,y2,...,xn,yn].
+/*
+    Given the array nums consisting of 2n elements in the form [x1,x2,...,xn,y1,y2,...,yn].
 
-    //Brute force solution
-    //Time: O(N)
-    //Space: O(N)
+    Return the array in the form [x1,y1,x2,y2,...,xn,yn].
+*/
+
+public class shuffleArray {
     public int[] shuffle(int[] nums, int n) {
         int[] shuffledArr = new int[nums.length];
         for (int i = 0; i < shuffledArr.length - 1; i += 2){

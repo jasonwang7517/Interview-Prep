@@ -1,3 +1,5 @@
+import java.util.HashMap;
+
 public class countBalls {
     public int countBalls(int lowLimit, int highLimit) {
         HashMap<Integer, Integer> hm = new HashMap<>();

@@ -1,6 +1,3 @@
-import java.util.ArrayList;
-
-public class decompressRLEList {
 /*
     We are given a list nums of integers representing a list compressed with run-length encoding.
 
@@ -9,12 +6,10 @@ public class decompressRLEList {
     to generate the decompressed list.
 
     Return the decompressed list.
-
-    Constraints:
-        - 2 <= nums.length <= 100
-        - nums.length % 2 == 0
-        - 1 <= nums[i] <= 100
  */
+import java.util.ArrayList;
+
+class DecompressRLEList {
     public static int[] decompressRLElist(int[] nums) {
         ArrayList<Integer> count = new ArrayList<>();
         for (int i = 0; i < nums.length - 1; i += 2) {

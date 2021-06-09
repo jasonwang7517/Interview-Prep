@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 class RecentCounter {
     ArrayList<Integer> requests;
 
