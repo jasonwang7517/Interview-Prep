@@ -12,7 +12,7 @@
 */
 import static java.lang.Math.*;
 
-public class countGoodTriplets {
+public class CountGoodTriplets {
     public int countGoodTriplets(int[] arr, int a, int b, int c) {
         int triplets = 0;
         for (int i = 0; i < arr.length - 2; i++) {

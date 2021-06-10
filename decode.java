@@ -7,14 +7,8 @@
     You are given the encoded array. You are also given an integer first, that is the first element of arr, i.e. arr[0].
 
     Return the original array arr. It can be proved that the answer exists and is unique.
-
-    Constraints:
-        - 2 <= n <= 104
-        - encoded.length == n - 1
-        - 0 <= encoded[i] <= 105
-        - 0 <= first <= 105
- */
-class decode {
+*/
+class DecodeXORedArray {
     public int[] decode(int[] encoded, int first) {
         int[] ans = new int[encoded.length + 1];
         ans[0] = first;

@@ -3,18 +3,11 @@
     consistent if all characters in the string appear in the string allowed.
 
     Return the number of consistent strings in the array words.
-
-    Constraints:
-        - 1 <= words.length <= 104
-        - 1 <= allowed.length <= 26
-        - 1 <= words[i].length <= 10
-        - The characters in allowed are distinct.
-        - words[i] and allowed contain only lowercase English letters.
  */
 
 import java.util.HashSet;
 
-class countConsistentStrings {
+class CountTheNumberOfConsistentStrings {
     public int countConsistentStrings(String allowed, String[] words) {
         int ans = 0;
         HashSet<Character> set = new HashSet<>();

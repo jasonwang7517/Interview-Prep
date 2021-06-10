@@ -1,7 +1,8 @@
-public class toLowerCase {
-    /*
-    Implement function ToLowerCase() that has a string parameter str, and returns the same string in lowercase.
-     */
+/*
+    Given a string s, return the string after replacing every uppercase letter with the same lowercase letter.
+*/
+
+public class ToLowerCase {
     public String toLowerCase(String str) {
         char[] a = str.toCharArray();
         for (int i = 0; i < a.length; i++)
