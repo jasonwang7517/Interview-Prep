@@ -1,4 +1,11 @@
-class Solution(object):
+"""
+    You are given two strings word1 and word2. Merge the strings by adding letters in alternating order, starting with word1. If a string is longer than the other, append 
+    the additional letters onto the end of the merged string.
+
+    Return the merged string.
+"""
+
+class MergeStringsAlternately(object):
     def mergeAlternately(self, word1, word2):
         word1Index = 0
         word2Index = 0

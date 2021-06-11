@@ -1,10 +1,13 @@
-class Solution(object):
+"""
+   Given two integer arrays of equal length target and arr.
+
+    In one step, you can select any non-empty sub-array of arr and reverse it. You are allowed to make any number of steps.
+
+    Return True if you can make arr equal to target, or False otherwise. 
+"""
+
+class MakeTwoArraysEqual(object):
     def canBeEqual(self, target, arr):
-        """
-        :type target: List[int]
-        :type arr: List[int]
-        :rtype: bool
-        """
         dict = {}
         dict2 = {}
         for el in target:

@@ -1,7 +1,11 @@
+/*
+    Given an array of integers arr, write a function that returns true if and only if the number of occurrences of each value in the array is unique.
+*/
+
 import java.util.HashMap;
 import java.util.HashSet;
 
-class uniqueOccurrences {
+public class UniqueNumberOfOccurences {
     public boolean uniqueOccurrences(int[] arr) {
         HashMap<Integer, Integer> map = new HashMap<>();
         HashSet<Integer> freq = new HashSet<>();

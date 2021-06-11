@@ -1,12 +1,12 @@
-import java.util.HashMap;
-
 /*
     You are given an integer array nums. The unique elements of an array are the elements that appear exactly once in the array.
 
     Return the sum of all the unique elements of nums.
 */
 
-class sumOfUnique {
+import java.util.HashMap;
+
+class SumOfUniqueElements {
     public int sumOfUnique(int[] nums) {
         HashMap<Integer, Integer> hm = new HashMap<>();
         int ans = 0;

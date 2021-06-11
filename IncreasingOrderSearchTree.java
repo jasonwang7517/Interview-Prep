@@ -1,24 +1,9 @@
 import java.util.ArrayList;
 import java.util.List;
-
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
-class increasingBST {
+ 
+public class IncreasingOrderSearchTree {
     public TreeNode increasingBST(TreeNode root) {
-        List<Integer> vals = new ArrayList();
+        List<Integer> vals = new ArrayList<>();
         inorder(root, vals);
         TreeNode ans = new TreeNode(0), cur = ans;
         for (int v: vals) {
@@ -47,4 +32,17 @@ class increasingBST {
           this.right = right;
       }
   }
+}
+
+class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
+    TreeNode() {}
+    TreeNode(int val) { this.val = val; }
+    TreeNode(int val, TreeNode left, TreeNode right) {
+        this.val = val;
+        this.left = left;
+        this.right = right;
+    }
 }
