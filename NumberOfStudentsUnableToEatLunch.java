@@ -13,7 +13,7 @@
     stack (i = 0 is the top of the stack) and students[j] is the preference of the j​​​​​​th student in the initial queue
     (j = 0 is the front of the queue). Return the number of students that are unable to eat.
  */
-class countStudents {
+public class NumberOfStudentsUnableToEatLunch {
     public int countStudents(int[] students, int[] sandwiches) {
         int[] prefs = new int[]{0,0};
         for (int i : students) {
