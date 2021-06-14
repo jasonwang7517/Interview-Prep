@@ -1,3 +1,7 @@
+"""
+    Given the root of a binary tree, return the average value of the nodes on each level in the form of an array. Answers within 10-5 of the actual answer will be accepted.
+"""
+
 class TreeNode(object):
     def __init__(self, val=0, left=None, right=None):
         self.val = val
@@ -5,7 +9,7 @@ class TreeNode(object):
         self.right = right
 
 
-class Solution(object):
+class AverageOfLevelsInBinaryTree(object):
     def averageOfLevels(self, root):
         ans = []
         q = []

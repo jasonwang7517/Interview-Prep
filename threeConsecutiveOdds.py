@@ -1,4 +1,8 @@
-class Solution(object):
+"""
+    Given an integer array arr, return true if there are three consecutive odd numbers in the array. Otherwise, return false.
+"""
+
+class ThreeConsecutiveOdds(object):
     def threeConsecutiveOdds(self, arr):
         if len(arr) < 3:
             return False

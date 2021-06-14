@@ -1,4 +1,8 @@
-class Solution(object):
+"""
+    Given the head of a singly linked list, reverse the list, and return the reversed list.
+"""
+
+class ReverseLinkedList(object):
     def reverseList(self, head):
         prev = None
         curr = head
