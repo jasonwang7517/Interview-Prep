@@ -1,6 +1,3 @@
-import java.util.HashMap;
-
-public class NumberOfGoodPairs {
 /*
     Given an array of integers nums.
 
@@ -8,6 +5,8 @@ public class NumberOfGoodPairs {
 
     Return the number of good pairs.
 */
+
+public class NumberOfGoodPairs {
     public static int numIdenticalPairs(int[] nums) {
         int numGoodPairs = 0;
         for (int i  = 0; i < nums.length - 1; i++) {

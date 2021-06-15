@@ -1,12 +1,11 @@
-import java.util.HashMap;
-
-public class NumbersSmallerThanCurrentNumber {
 /*
     Given the array nums, for each nums[i] find out how many numbers in the array are smaller than it. That is, for each nums[i] you have to count the number of valid j's 
     such that j != i and nums[j] < nums[i].
 
     Return the answer in an array.
 */
+
+public class NumbersSmallerThanCurrentNumber {
     public int[] smallerNumbersThanCurrent(int[] nums) {
         int[] count = new int[101];
         int[] ans = new int[nums.length];

@@ -1,4 +1,8 @@
-class Solution(object):
+"""
+    Given a string s, return the "reversed" string where all characters that are not a letter stay in the same place, and all letters reverse their positions.
+"""
+
+class ReverseOnlyLetters(object):
     def reverseOnlyLetters(self, S):
         letters = []
         otherChars = [0] * 100
