@@ -6,6 +6,8 @@ Pick the scores of any k students from the array so that the difference between 
 Return the minimum possible difference.
  */
 
+ import java.util.*;
+
 class MinimumDifferenceBetweenHighestAndLowestKScores {
     public int minimumDifference(int[] nums, int k) {
         if (nums.length <= 1) {

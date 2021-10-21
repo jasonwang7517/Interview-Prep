@@ -3,6 +3,7 @@ Given three integer arrays nums1, nums2, and nums3, return a distinct array cont
  
 You may return the values in any order.
  */
+import java.util.*;
 
 class TwoOutOfThree {
     public List<Integer> twoOutOfThree(int[] nums1, int[] nums2, int[] nums3) {

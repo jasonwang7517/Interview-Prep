@@ -3,6 +3,8 @@ Given two integer arrays nums1 and nums2, return an array of their intersection.
 you may return the result in any order.
  */
 
+import java.util.*;
+
 class IntersectionOfTwoArraysII {
     public int[] intersect(int[] nums1, int[] nums2) {
         HashMap<Integer, Integer> counts1 = new HashMap<>();

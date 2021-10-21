@@ -4,7 +4,6 @@
 
 public class AddDigits {
     public int addDigits(int num) {
-        int sum = Integer.MAX_VALUE;
         while (true) {
             char[] c = Integer.toString(num).toCharArray();
             int currSum = 0;

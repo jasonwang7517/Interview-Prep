@@ -11,6 +11,7 @@ The placement of each athlete determines their rank:
 
 Return an array answer of size n where answer[i] is the rank of the ith athlete.
  */
+import java.util.*;
 
 class RelativeRanks {
     public String[] findRelativeRanks(int[] score) {
