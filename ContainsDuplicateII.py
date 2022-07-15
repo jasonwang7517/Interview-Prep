@@ -4,7 +4,7 @@ Given an integer array nums and an integer k, return true if there are two disti
 
 from collections import defaultdict
 
-class Solution(object):
+class ContainsDuplicateII(object):
     def containsNearbyDuplicate(self, nums, k):
         positions = defaultdict(lambda: [])
         for i in range(len(nums)):

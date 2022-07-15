@@ -4,7 +4,7 @@ Given two strings s and t, return true if they are equal when both are typed int
 Note that after backspacing an empty text, the text will continue empty.
 """
 
-class Solution(object):
+class BackspaceStringCompare(object):
     def backspaceCompare(self, s, t):
         s_stack = []
         for i in s:

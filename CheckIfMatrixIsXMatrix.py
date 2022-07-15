@@ -6,7 +6,7 @@ A square matrix is said to be an X-Matrix if both of the following conditions ho
 Given a 2D integer array grid of size n x n representing a square matrix, return true if grid is an X-Matrix. Otherwise, return false.
 """
 
-class Solution(object):
+class CheckIfMatrixIsXMatrix(object):
     def checkXMatrix(self, grid):
         index = 0
         bound = len(grid[0]) - 1

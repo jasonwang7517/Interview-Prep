@@ -1,5 +1,5 @@
 """
-    Given a string columnTitle that represents the column title as appear in an Excel sheet, return its corresponding column number.
+Given a string columnTitle that represents the column title as appear in an Excel sheet, return its corresponding column number.
 """
 
 class ExcelSheetColumnNumber(object):

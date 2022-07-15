@@ -5,8 +5,8 @@ You are given the strings key and message, which represent a cipher key and a se
     - Each letter in message is then substituted using the table.
     - Spaces ' ' are transformed to themselves.
 
-For example, given key = "happy boy" (actual key would have at least one instance of each letter in the alphabet), we have the partial substitution table of ('h' -> 'a', 'a' -> 'b', 
-'p' -> 'c', 'y' -> 'd', 'b' -> 'e', 'o' -> 'f').
+For example, given key = "happy boy" (actual key would have at least one instance of each letter in the alphabet), we have the partial substitution table of 
+('h' -> 'a', 'a' -> 'b', 'p' -> 'c', 'y' -> 'd', 'b' -> 'e', 'o' -> 'f').
 
 Return the decoded message.
 """

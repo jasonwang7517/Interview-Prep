@@ -2,7 +2,7 @@
 Given a binary string s ​​​​​without leading zeros, return true​​​ if s contains at most one contiguous segment of ones. Otherwise, return false.
 """
 
-class Solution(object):
+class CheckIfBinaryStringHasAtMostSegmentOfOnes(object):
     def checkOnesSegment(self, s):
         contiguous = False
         total_segs = 0

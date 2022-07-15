@@ -1,7 +1,7 @@
 """
-    Given an integer n. Each number from 1 to n is grouped according to the sum of its digits. 
+Given an integer n. Each number from 1 to n is grouped according to the sum of its digits. 
 
-    Return how many groups have the largest size.
+Return how many groups have the largest size.
 """
 
 class CountLargestGroup(object):

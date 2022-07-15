@@ -8,7 +8,7 @@ Given the heads of two singly linked-lists headA and headB, return the node at w
 #         self.val = x
 #         self.next = None
 
-class Solution(object):
+class IntersectionOfTwoLinkedLists(object):
     def getIntersectionNode(self, headA, headB):
         seen = set()
         while headA:

@@ -1,6 +1,5 @@
 /*
-    Given a string s. You should re-order the string using the following algorithm:
-
+Given a string s. You should re-order the string using the following algorithm:
     1. Pick the smallest character from s and append it to the result.
     2. Pick the smallest character from s which is greater than the last appended character to the result and append it.
     3. Repeat step 2 until you cannot pick more characters.
@@ -9,9 +8,9 @@
     6. Repeat step 5 until you cannot pick more characters.
     7. Repeat the steps from 1 to 6 until you pick all characters from s.
     
-    In each step, If the smallest or the largest character appears more than once you can choose any occurrence and append it to the result.
+In each step, If the smallest or the largest character appears more than once you can choose any occurrence and append it to the result.
 
-    Return the result string after sorting s with this algorithm.
+Return the result string after sorting s with this algorithm.
 */
 
 public class IncreasingDecreasingString {

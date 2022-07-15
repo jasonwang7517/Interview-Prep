@@ -6,7 +6,7 @@ A vowel substring is a substring that only consists of vowels ('a', 'e', 'i', 'o
 Given a string word, return the number of vowel substrings in word.
 """
 
-class Solution(object):
+class CountVowelSubstringsOfString(object):
     def countVowelSubstrings(self, word):
         length = 5
         ans = 0

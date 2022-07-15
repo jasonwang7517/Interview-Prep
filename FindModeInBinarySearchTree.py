@@ -15,6 +15,7 @@ Assume a BST is defined as follows:
 #         self.val = val
 #         self.left = left
 #         self.right = right
+
 from collections import defaultdict
 
 class Solution(object):

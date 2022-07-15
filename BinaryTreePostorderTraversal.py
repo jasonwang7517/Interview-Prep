@@ -1,5 +1,5 @@
 """
-    Given the root of a binary tree, return the postorder traversal of its nodes' values.
+Given the root of a binary tree, return the postorder traversal of its nodes' values.
 """
 
 class TreeNode(object):
@@ -8,7 +8,7 @@ class TreeNode(object):
         self.left = left
         self.right = right
         
-class Solution(object):
+class BinaryTreePostorderTraversal(object):
     def postorderTraversal(self, root):
         ans = []
         if not root:

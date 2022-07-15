@@ -1,5 +1,5 @@
 """
-    Given an array nums of 0s and 1s and an integer k, return True if all 1's are at least k places away from each other, otherwise return False.
+Given an array nums of 0s and 1s and an integer k, return True if all 1's are at least k places away from each other, otherwise return False.
 """
 
 class CheckIfAll1sAreAtLeastKPlacesAway(object):

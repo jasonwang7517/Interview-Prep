@@ -1,7 +1,7 @@
 /*
-    Given the root of an n-ary tree, return the postorder traversal of its nodes' values.
+Given the root of an n-ary tree, return the postorder traversal of its nodes' values.
 
-    Nary-Tree input serialization is represented in their level order traversal. Each group of children is separated by the null value.
+Nary-Tree input serialization is represented in their level order traversal. Each group of children is separated by the null value.
 */
 
 import java.util.ArrayList;

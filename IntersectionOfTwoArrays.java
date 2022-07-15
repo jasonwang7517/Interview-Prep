@@ -1,5 +1,5 @@
 /*
-    Given two integer arrays nums1 and nums2, return an array of their intersection. Each element in the result must be unique and you may return the result in any order.
+Given two integer arrays nums1 and nums2, return an array of their intersection. Each element in the result must be unique and you may return the result in any order.
 */
 
 import java.util.HashSet;
@@ -21,7 +21,6 @@ public class IntersectionOfTwoArrays {
                 s3.add(i);
             }
         }
-
         int[] ans = new int[s3.size()];
         int index = 0;
         for (int i : s3) {

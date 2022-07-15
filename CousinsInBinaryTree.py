@@ -13,6 +13,7 @@ Note that in a binary tree, the root node is at the depth 0, and children of eac
 #         self.val = val
 #         self.left = left
 #         self.right = right
+
 class CousinsInBinaryTree(object):
     def isCousins(self, root, x, y):
         def dfs(node, depth):

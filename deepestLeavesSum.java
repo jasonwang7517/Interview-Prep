@@ -1,5 +1,5 @@
 /*
-    Given a binary tree, return the sum of values of its deepest leaves.
+Given a binary tree, return the sum of values of its deepest leaves.
 */
 
 import java.util.LinkedList;
@@ -33,7 +33,7 @@ class DeepestLeavesSum {
                     queue.offer(curr.left);
                 }
                 if (curr.right != null){
-                queue.offer(curr.right);
+                    queue.offer(curr.right);
                 }   
             }   
         }

@@ -8,7 +8,7 @@ A subsequence of array is a sequence that can be derived from the array by delet
 
 from collections import defaultdict
 
-class Solution(object):
+class LargestHarmoniousSubsequence(object):
     def findLHS(self, nums):
         counts = defaultdict(lambda: 0)
         for i in nums:
