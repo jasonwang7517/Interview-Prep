@@ -1,11 +1,11 @@
 """
-    A string is good if there are no repeated characters.
+A string is good if there are no repeated characters.
 
-    Given a string s​​​​​, return the number of good substrings of length three in s​​​​​​.
+Given a string s​​​​​, return the number of good substrings of length three in s​​​​​​.
 
-    Note that if there are multiple occurrences of the same substring, every occurrence should be counted.
+Note that if there are multiple occurrences of the same substring, every occurrence should be counted.
 
-    A substring is a contiguous sequence of characters in a string.
+A substring is a contiguous sequence of characters in a string.
 """
 
 class SubstringsOfSizeThreeWithDistinctCharacters(object):

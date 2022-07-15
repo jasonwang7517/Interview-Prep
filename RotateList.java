@@ -1,5 +1,5 @@
 /*
-    Given the head of a linked list, rotate the list to the right by k places.
+Given the head of a linked list, rotate the list to the right by k places.
 */
 
 public class RotateList {
@@ -14,11 +14,9 @@ public class RotateList {
             current = current.next;
             size++;
         }
-        //Size is finalized
         int numRotations = k % size;
         last = current;
         last.next = head;
-        //1->2->3->4->5->1
         int leftRotations = size - numRotations;
         while (leftRotations > 0) {
             head = head.next;

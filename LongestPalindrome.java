@@ -6,7 +6,7 @@ Letters are case sensitive, for example, "Aa" is not considered a palindrome her
 
  import java.util.HashMap;
 
-class Solution {
+class LongestPalindrome {
     public int longestPalindrome(String s) {
         HashMap<Character, Integer> counts = new HashMap<>(); 
         for (int i = 0; i < s.length(); i++) {

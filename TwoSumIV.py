@@ -1,5 +1,5 @@
 """
-    Given the root of a Binary Search Tree and a target number k, return true if there exist two elements in the BST such that their sum is equal to the given target.
+Given the root of a Binary Search Tree and a target number k, return true if there exist two elements in the BST such that their sum is equal to the given target.
 """
 
 # Definition for a binary tree node.
@@ -8,6 +8,7 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+
 class TwoSumIV(object):
     def findTarget(self, root, k):
         sums = {}

@@ -1,9 +1,9 @@
 /*
-    Given an array of positive integers arr, calculate the sum of all possible odd-length subarrays.
+Given an array of positive integers arr, calculate the sum of all possible odd-length subarrays.
 
-    A subarray is a contiguous subsequence of the array.
+A subarray is a contiguous subsequence of the array.
 
-    Return the sum of all odd-length subarrays of arr.
+Return the sum of all odd-length subarrays of arr.
 */
 
 class SumOfAllOddLengthSubarrays {

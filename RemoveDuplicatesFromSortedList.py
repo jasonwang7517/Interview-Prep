@@ -8,7 +8,7 @@ Given the head of a sorted linked list, delete all duplicates such that each ele
 #         self.val = val
 #         self.next = next
 
-class Solution(object):
+class RemoveDuplicatesFromSortedList(object):
     def deleteDuplicates(self, head):
         if head is None:
             return head

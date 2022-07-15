@@ -1,5 +1,5 @@
 /*
-    Given an m x n matrix, return all elements of the matrix in spiral order.
+Given an m x n matrix, return all elements of the matrix in spiral order.
 */
 
 import java.util.ArrayList;
@@ -32,7 +32,6 @@ public class SpiralMatrix {
             currX = maxRow;
             maxCol--;
             currY--;
-            //Left
             while (currY >= minCol && !seen[currX][currY]) {
                 ans.add(matrix[currX][currY]);
                 seen[currX][currY] = true;
@@ -41,7 +40,6 @@ public class SpiralMatrix {
             currY = minCol;
             maxRow--;
             currX--;
-            //Up
             while (currX >= minRow && !seen[currX][currY]) {
                 ans.add(matrix[currX][currY]);
                 seen[currX][currY] = true;

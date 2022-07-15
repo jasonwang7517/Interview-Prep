@@ -6,7 +6,7 @@ Return the maximum number of copies of target that can be formed by taking lette
 
 from collections import defaultdict
 
-class Solution(object):
+class RearrangeCharactersToMakeTargetString(object):
     def rearrangeCharacters(self, s, target):
         counts = defaultdict(lambda: 0)
         for i in s:

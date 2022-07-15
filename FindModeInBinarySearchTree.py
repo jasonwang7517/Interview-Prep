@@ -18,7 +18,7 @@ Assume a BST is defined as follows:
 
 from collections import defaultdict
 
-class Solution(object):
+class FindModeInBinarySearchTree(object):
     def findMode(self, root):
         counts = defaultdict(lambda: 0)
         self.traverse(root, counts)

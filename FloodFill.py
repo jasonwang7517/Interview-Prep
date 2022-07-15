@@ -9,7 +9,7 @@ plus any pixels connected 4-directionally to those pixels (also with the same co
 Return the modified image after performing the flood fill.
 """
 
-class Solution(object):
+class FloodFill(object):
     def floodFill(self, image, sr, sc, newColor):
         R = len(image)
         C = len(image[0])

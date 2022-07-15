@@ -4,7 +4,7 @@ Given an alphanumeric string s, return the second largest numerical digit that a
 An alphanumeric string is a string consisting of lowercase English letters and digits.
 """
 
-class Solution(object):
+class SecondLargestDigitInAString(object):
     def secondHighest(self, s):
         digits = set()
         for i in s:

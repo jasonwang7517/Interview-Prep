@@ -4,7 +4,7 @@ Given an unsorted array of integers nums, return the length of the longest conti
 A continuous increasing subsequence is defined by two indices l and r (l < r) such that it is [nums[l], nums[l + 1], ..., nums[r - 1], nums[r]] and for each l <= i < r, nums[i] < nums[i + 1].
 """
 
-class Solution(object):
+class LongestContinuingIncreasingSubsequence(object):
     def findLengthOfLCIS(self, nums):
         if len(nums) == 1:
             return 1

@@ -1,8 +1,8 @@
 """
-    Given two strings first and second, consider occurrences in some text of the form "first second third", where second comes immediately after first, and third 
-    comes immediately after second.
+Given two strings first and second, consider occurrences in some text of the form "first second third", where second comes immediately after first, and third 
+comes immediately after second.
 
-    Return an array of all the words third for each occurrence of "first second third".
+Return an array of all the words third for each occurrence of "first second third".
 """
 
 class OccurrencesAfterBigram(object):

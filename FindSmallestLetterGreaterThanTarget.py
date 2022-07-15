@@ -4,7 +4,7 @@ Given a characters array letters that is sorted in non-decreasing order and a ch
 Note that the letters wrap around.
 """
 
-class Solution(object):
+class FindSmallestLetterGreaterThanTarget(object):
     def nextGreatestLetter(self, letters, target):
         for i in letters:
             if i > target:
