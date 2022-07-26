@@ -17,7 +17,6 @@ class MaximumNumberOfPairsInArray(object):
             pairs[i] += 1
         ans = 0
         remainder = 0
-        print(pairs)
         for i in pairs:
             ans += pairs[i] // 2
             remainder += pairs[i] % 2 

@@ -9,9 +9,7 @@ class CanPlaceFlowers(object):
     def canPlaceFlowers(self, flowerbed, n):
         index = 1
         ans = 0
-        if len(flowerbed) == 1:
-            return (sum(flowerbed) == 0 and n <= 1) or n == 0
-        if len(flowerbed) == 2:
+        if len(flowerbed) <= 1:
             return (sum(flowerbed) == 0 and n <= 1) or n == 0
         if flowerbed[0] == 0 and flowerbed[1] == 0:
             ans += 1
